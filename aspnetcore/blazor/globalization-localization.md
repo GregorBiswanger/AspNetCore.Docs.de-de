@@ -109,7 +109,7 @@ Weitere Informationen und Beispiele finden Sie unter <xref:fundamentals/localiza
 
 Ein cookie für die Lokalisierungskultur kann die Kultur des Benutzers beibehalten. Die Lokalisierungsmiddleware liest das cookie bei aufeinanderfolgenden Anforderungen, um die Kultur des Benutzers festzulegen. 
 
-Durch Verwendung eines cookie wird sichergestellt, wird sichergestellt, dass die WebSocket-Verbindung die Kultur ordnungsgemäß weitergeben kann. Wenn die Lokalisierungsschemas auf dem URL-Pfad oder der Abfragezeichenfolge basieren, kann das Schema möglicherweise nicht mit WebSockets funktionieren, wodurch das Beibehalten der Kultur fehlschlägt. Daher wird die Verwendung eines cookie für die Lokalisierungskultur empfohlen.
+Durch Verwendung eines cookie wird sichergestellt, dass die WebSocket-Verbindung die Kultur ordnungsgemäß weitergeben kann. Wenn die Lokalisierungsschemas auf dem URL-Pfad oder der Abfragezeichenfolge basieren, kann das Schema möglicherweise nicht mit WebSockets funktionieren, wodurch das Beibehalten der Kultur fehlschlägt. Daher wird die Verwendung eines cookie für die Lokalisierungskultur empfohlen.
 
 Alle Vorgehensweisen können zum Zuweisen einer Kultur verwendet werden, wenn die Kultur in einem Lokalisierungscookie beibehalten wird. Wenn die App bereits über ein Lokalisierungsschema für serverseitiges ASP.NET Core verfügt, können Sie die vorhandene Lokalisierungsinfrastruktur der App weiterhin verwenden und das Lokalisierungskulturcookie innerhalb des Schemas der App festlegen.
 
